@@ -14,7 +14,6 @@ class UserTest extends TestCase
 
     public function test_we_can_get_the_first_name()
     {
-
         $this->user->setFirstName('Vitalii');
 
         $this->assertSame($this->user->getFirstName(), 'Vitalii');
